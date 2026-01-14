@@ -1,0 +1,65 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+
+    <TextView
+        android:text="Check a Message for Scam"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#1A237E"
+        android:layout_marginBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edtMessage"
+        android:hint="Paste the message here"
+        android:textSize="20sp"
+        android:minHeight="150dp"
+        android:gravity="top|start"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginBottom="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnPaste"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#1A237E"
+        android:minHeight="64dp"
+        android:text="Paste Message"
+        android:textSize="22sp"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/btnCheck"
+        android:text="Check Message"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#2E7D32"
+        android:minHeight="64dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnTranslate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Translate to Hindi"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:minHeight="64dp"
+        android:layout_marginTop="12dp"/>
+
+
+</LinearLayout>

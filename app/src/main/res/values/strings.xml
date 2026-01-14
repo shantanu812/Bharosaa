@@ -1,0 +1,8 @@
+
+    <resources>
+        <string name="app_name">सीनियर एंटी स्कैम</string>
+        <string name="paste_message">मैसेज पेस्ट करें</string>
+        <string name="check_safety">सुरक्षा जांचें</string>
+        <string name="enter_message">यहाँ मैसेज पेस्ट करें</string>
+        <string name="language_button">English</string>
+    </resources>
